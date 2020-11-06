@@ -1,2 +1,4 @@
 1. roll back to the previous version: version control
 2. git init => ls -a => can see hidden file .git
+3. git add .
+4. git commit -m "Completed Chapter 1"
