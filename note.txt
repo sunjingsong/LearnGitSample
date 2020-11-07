@@ -2,3 +2,18 @@
 2. git init => ls -a => can see hidden file .git
 3. git add .
 4. git commit -m "Completed Chapter 1"
+5. Working Directory => Staging Area => Local Repository
+     git init             git add         git commit
+
+6. git diff chapter3.txt => see the difference of
+   different versions of chapter3.txt
+
+7. git checkout chapter3.txt => rollback previous version
+
+8. Github => create new repository
+9. Terminal command:
+Before using need config:
+$ git config --global github.user sunjingsong
+$ git config --global github.token cbb18cf1fc037436c90268dbbbfaa1a7a4d7c62f
+(1) $ git remote add origin https://github.com/sunjingsong/LearningGit.git
+(2) $ git push -u origin master
